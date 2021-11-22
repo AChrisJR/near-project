@@ -30,7 +30,7 @@ main {
 }
 
 h1 {
-  background-image: url(assets/logo.png);
+  background-image: url(/logo.e9a9c890.png);
   background-position: center 1em;
   background-repeat: no-repeat;
   background-size: auto 1.5em;
@@ -203,3 +203,5 @@ aside footer *:last-child {
   {
     color: var(--primary)
   }
+
+/*# sourceMappingURL=/global.e50bbfba.css.map */
