@@ -70,6 +70,10 @@ function signedOutFlow() {
   document.querySelector('#signed-out-flow').style.display = 'block'
 }
 
+function kollaFlow() {
+  document.querySelector('#kolla-flow').style.display = 'block'
+}
+
 // Displaying the signed in flow container and fill in account-specific data
 function signedInFlow() {
   document.querySelector('#signed-in-flow').style.display = 'block'
