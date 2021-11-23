@@ -14,7 +14,7 @@
 
 import { Context, logging, storage } from 'near-sdk-as'
 
-const DEFAULT_MESSAGE = 'Hello'
+const DEFAULT_MESSAGE = 'CID Url'
 
 // Exported functions will be part of the public interface for your smart contract.
 // Feel free to extract behavior to non-exported functions!

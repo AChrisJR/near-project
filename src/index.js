@@ -23,7 +23,8 @@ document.querySelector('form').onsubmit = async (event) => {
     // make an update call to the smart contract
     await window.contract.setGreeting({
       // pass the value that the user entered in the greeting field
-      message: greeting.value
+      message: 'The kolla'
+      // greeting.value
     })
   } catch (e) {
     alert(
@@ -50,7 +51,7 @@ document.querySelector('form').onsubmit = async (event) => {
   // this allows it to be shown again next time the form is submitted
   setTimeout(() => {
     document.querySelector('[data-behavior=notification]').style.display = 'none'
-  }, 11000)
+  }, 510000)
 }
 
 document.querySelector('input#greeting').oninput = (event) => {

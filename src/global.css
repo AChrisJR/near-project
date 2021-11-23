@@ -141,15 +141,13 @@ li {
 }
 
 aside {
-  animation: notify ease-in-out 10s;
-  background-color: var(--shadow);
+  background-color: blueviolet;
   border-radius: 5px;
-  bottom: 0;
   font-size: 0.8em;
   margin: 1em;
   padding: 1em;
   position: fixed;
-  transform: translateY(10em);
+  bottom: 0;
   right: 0;
 }
 aside footer {
@@ -162,14 +160,9 @@ aside footer *:first-child {
   color: var(--success);
 }
 aside footer *:last-child {
-  color: var(--gray);
+  color: white;
 }
-@keyframes notify {
-  0% { transform: translateY(10em) }
-  5% { transform: translateY(0) }
-  95% { transform: translateY(0) }
-  100% { transform: translateY(10em) }
-}
+
 
 #footer
   {
